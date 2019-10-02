@@ -1,6 +1,7 @@
 import React, { Component, Fragment, createRef } from 'react';
 
 import { ScoreBoard } from './ScoreBoard';
+import Instructions from './Instructions';
 
 class Game extends Component {
   constructor(props) {
@@ -312,6 +313,7 @@ class Game extends Component {
               </div>
             </div>
             <ScoreBoard />
+            <Instructions />
           </Fragment>
         )}
       </main>
